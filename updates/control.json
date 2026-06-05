@@ -1,0 +1,107 @@
+{
+  "schema": "vargbot.update-control.v1",
+  "global_freeze": false,
+  "message": "Free updates are operating normally. Premium and Enterprise routes are frozen until authenticated update access is implemented.",
+  "editions": {
+    "free": {
+      "enabled": true,
+      "label": "Free",
+      "default_channel": "stable",
+      "channels": {
+        "stable": {
+          "enabled": true,
+          "provider": "github_manifest",
+          "manifest": "updates/free/stable/manifest.json",
+          "github_manifest_path": "updates/free/stable/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "preview": {
+          "enabled": true,
+          "provider": "github_manifest",
+          "manifest": "updates/free/preview/manifest.json",
+          "github_manifest_path": "updates/free/preview/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "dev": {
+          "enabled": true,
+          "provider": "github_manifest",
+          "manifest": "updates/free/dev/manifest.json",
+          "github_manifest_path": "updates/free/dev/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        }
+      }
+    },
+    "premium": {
+      "enabled": true,
+      "label": "Premium",
+      "default_channel": "stable",
+      "frozen": true,
+      "freeze_reason": "Premium updates require authenticated manifest/package access before rollout.",
+      "channels": {
+        "stable": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Premium updates require authenticated manifest/package access before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/premium/stable/manifest.json",
+          "github_manifest_path": "updates/premium/stable/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "preview": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Premium preview updates require authenticated manifest/package access before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/premium/preview/manifest.json",
+          "github_manifest_path": "updates/premium/preview/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "dev": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Premium dev updates require authenticated manifest/package access before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/premium/dev/manifest.json",
+          "github_manifest_path": "updates/premium/dev/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        }
+      }
+    },
+    "enterprise": {
+      "enabled": true,
+      "label": "Enterprise",
+      "default_channel": "stable",
+      "frozen": true,
+      "freeze_reason": "Enterprise updates require organization-specific authenticated routing before rollout.",
+      "channels": {
+        "stable": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Enterprise updates require organization-specific authenticated routing before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/enterprise/stable/manifest.json",
+          "github_manifest_path": "updates/enterprise/stable/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "preview": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Enterprise preview updates require organization-specific authenticated routing before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/enterprise/preview/manifest.json",
+          "github_manifest_path": "updates/enterprise/preview/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        },
+        "dev": {
+          "enabled": true,
+          "frozen": true,
+          "freeze_reason": "Enterprise dev updates require organization-specific authenticated routing before rollout.",
+          "provider": "github_manifest",
+          "manifest": "updates/enterprise/dev/manifest.json",
+          "github_manifest_path": "updates/enterprise/dev/manifest.json",
+          "minimum_supported_version": "0.1.2-Dev6"
+        }
+      }
+    }
+  }
+}
