@@ -36,12 +36,12 @@
       "label": "Premium",
       "default_channel": "stable",
       "frozen": true,
-      "freeze_reason": "Premium updates require authenticated manifest/package access before rollout.",
+      "freeze_reason": "Premium updates require authenticated Mission Control manifest/package access before rollout.",
       "channels": {
         "stable": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Premium updates require authenticated manifest/package access before rollout.",
+          "freeze_reason": "Premium updates require authenticated Mission Control manifest/package access before rollout.",
           "provider": "github_manifest",
           "manifest": "updates/premium/stable/manifest.json",
           "github_manifest_path": "updates/premium/stable/manifest.json",
@@ -50,7 +50,7 @@
         "preview": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Premium preview updates require authenticated manifest/package access before rollout.",
+          "freeze_reason": "Premium preview updates require authenticated Mission Control manifest/package access before rollout.",
           "provider": "github_manifest",
           "manifest": "updates/premium/preview/manifest.json",
           "github_manifest_path": "updates/premium/preview/manifest.json",
@@ -59,7 +59,7 @@
         "dev": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Premium dev updates require authenticated manifest/package access before rollout.",
+          "freeze_reason": "Premium dev updates require authenticated Mission Control manifest/package access before rollout.",
           "provider": "github_manifest",
           "manifest": "updates/premium/dev/manifest.json",
           "github_manifest_path": "updates/premium/dev/manifest.json",
@@ -72,12 +72,12 @@
       "label": "Enterprise",
       "default_channel": "stable",
       "frozen": true,
-      "freeze_reason": "Enterprise updates require organization-specific authenticated routing before rollout.",
+      "freeze_reason": "Enterprise updates require organization-specific authenticated routing before organization, position, and cross-network agent rollout.",
       "channels": {
         "stable": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Enterprise updates require organization-specific authenticated routing before rollout.",
+          "freeze_reason": "Enterprise updates require organization-specific authenticated routing before organization, position, and cross-network agent rollout.",
           "provider": "github_manifest",
           "manifest": "updates/enterprise/stable/manifest.json",
           "github_manifest_path": "updates/enterprise/stable/manifest.json",
@@ -86,7 +86,7 @@
         "preview": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Enterprise preview updates require organization-specific authenticated routing before rollout.",
+          "freeze_reason": "Enterprise preview updates require organization-specific authenticated routing before organization, position, and cross-network agent rollout.",
           "provider": "github_manifest",
           "manifest": "updates/enterprise/preview/manifest.json",
           "github_manifest_path": "updates/enterprise/preview/manifest.json",
@@ -95,7 +95,7 @@
         "dev": {
           "enabled": true,
           "frozen": true,
-          "freeze_reason": "Enterprise dev updates require organization-specific authenticated routing before rollout.",
+          "freeze_reason": "Enterprise dev updates require organization-specific authenticated routing before organization, position, and cross-network agent rollout.",
           "provider": "github_manifest",
           "manifest": "updates/enterprise/dev/manifest.json",
           "github_manifest_path": "updates/enterprise/dev/manifest.json",
