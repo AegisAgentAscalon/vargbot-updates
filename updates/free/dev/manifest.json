@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev0",
+          "publishedAt": "2026-06-30T22:04:52Z",
+          "releaseNotesSummary": "Installer launch test",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev0-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "8caf96a1526d0297a6e08697d3abc6baf741c9685af962537a677603a73eb6be",
+            "sizeBytes": 39031636
+          }
+        },
+        {
           "version": "0.1.2-Dev7-smoke1",
           "publishedAt": "2026-06-30T20:52:36Z",
           "releaseNotesSummary": "Updater smoke package for dev-channel download, reveal, and record-only apply validation.",
