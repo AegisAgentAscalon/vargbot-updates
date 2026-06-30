@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev4",
+          "publishedAt": "2026-06-30T22:44:34Z",
+          "releaseNotesSummary": "Installer shutdown handoff",
+          "compatibilityNotes": "Closes the packaged VargBot desktop app after launching the installer so the running executable can be replaced.",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev4-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "422ee2f074d81b3103ab2d9ed68d7ab868a638025ad0d9ac7df906e0923bff11",
+            "sizeBytes": 39035738
+          }
+        },
+        {
           "version": "0.1.3-Dev3",
           "publishedAt": "2026-06-30T22:31:48Z",
           "releaseNotesSummary": "Release-stamped installer update with GitHub cache-busting",
