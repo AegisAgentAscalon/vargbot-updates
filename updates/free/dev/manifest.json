@@ -2,7 +2,21 @@
   "version": 1,
   "channels": {
     "dev": {
-      "releases": []
+      "releases": [
+        {
+          "version": "0.1.2-Dev7-smoke1",
+          "publishedAt": "2026-06-30T20:52:36Z",
+          "releaseNotesSummary": "Updater smoke package for dev-channel download, reveal, and record-only apply validation.",
+          "compatibilityNotes": "Not a runnable VargBot desktop build.",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.2-Dev7-smoke1-vargbot-updater-smoke.zip",
+            "fileName": "vargbot-updater-smoke.zip",
+            "sha256": "5cf6f0e458fa8b94b941c1c1a9519efc2d1c49328b9f8f0fd1c475a4e918caa8",
+            "sizeBytes": 275
+          }
+        }
+      ]
     }
   }
 }

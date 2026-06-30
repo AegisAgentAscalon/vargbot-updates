@@ -1,0 +1,8 @@
+{
+  "version": "0.1.2-Dev7-smoke1",
+  "artifact": "0.1.2-Dev7-smoke1-vargbot-updater-smoke.zip",
+  "sha256": "5cf6f0e458fa8b94b941c1c1a9519efc2d1c49328b9f8f0fd1c475a4e918caa8",
+  "sizeBytes": 275,
+  "packagedAt": "2026-06-30T20:52:36Z",
+  "buildSource": "updater smoke package"
+}
