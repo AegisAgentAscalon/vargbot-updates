@@ -4,16 +4,16 @@
     "dev": {
       "releases": [
         {
-          "version": "0.1.3-Dev0",
-          "publishedAt": "2026-06-30T22:04:52Z",
-          "releaseNotesSummary": "Installer launch test",
-          "compatibilityNotes": "",
+          "version": "0.1.3-Dev1",
+          "publishedAt": "2026-06-30T22:20:44Z",
+          "releaseNotesSummary": "Release-stamped installer update",
+          "compatibilityNotes": "Replaces 0.1.3-Dev0, which installed but still advertised 0.1.2-Dev6.",
           "package": {
             "sourceKind": "file",
-            "source": "../../packages/free/dev/0.1.3-Dev0-VargBot-amd64-installer.exe",
+            "source": "../../packages/free/dev/0.1.3-Dev1-VargBot-amd64-installer.exe",
             "fileName": "VargBot-amd64-installer.exe",
-            "sha256": "8caf96a1526d0297a6e08697d3abc6baf741c9685af962537a677603a73eb6be",
-            "sizeBytes": 39031636
+            "sha256": "39dff6716f255d098708eea07941dc8033cbc0e8a65b603696a6378e24f5d8d9",
+            "sizeBytes": 39031575
           }
         },
         {
