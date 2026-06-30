@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev5",
+          "publishedAt": "2026-06-30T22:51:40Z",
+          "releaseNotesSummary": "Installer shutdown handoff and fresh GitHub manifest reads",
+          "compatibilityNotes": "Closes the packaged VargBot desktop app after launching the installer and reads owner/repo GitHub manifests through the contents API.",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev5-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "b56ca306fc373b5ad959f9068f4b7dcf80bea607254e2a6701eeb998477e0a78",
+            "sizeBytes": 39038849
+          }
+        },
+        {
           "version": "0.1.3-Dev4",
           "publishedAt": "2026-06-30T22:44:34Z",
           "releaseNotesSummary": "Installer shutdown handoff",
