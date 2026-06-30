@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev6",
+          "publishedAt": "2026-06-30T22:59:46Z",
+          "releaseNotesSummary": "Installer closes running VargBot before file copy",
+          "compatibilityNotes": "Closes the packaged app after launch, uses GitHub contents manifest reads, and the installer closes any still-running VargBot.exe before copying files.",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev6-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "36ed04c6cbbafdd03f4c46d86ab7d4b9d9b086e5f0dd20d93006396573026b0b",
+            "sizeBytes": 39042759
+          }
+        },
+        {
           "version": "0.1.3-Dev5",
           "publishedAt": "2026-06-30T22:51:40Z",
           "releaseNotesSummary": "Installer shutdown handoff and fresh GitHub manifest reads",
