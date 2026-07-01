@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev17",
+          "publishedAt": "2026-07-01T19:40:18Z",
+          "releaseNotesSummary": "Repair stale Connect Peer identity hints",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev17-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "6c2e9d48cc8d0337178fef995e31f4c07f7e0064473baa3fa8eef3f99bd2a009",
+            "sizeBytes": 39082765
+          }
+        },
+        {
           "version": "0.1.3-Dev16",
           "publishedAt": "2026-07-01T19:16:14Z",
           "releaseNotesSummary": "Repair stale Agent Network Aegis identity trust",
