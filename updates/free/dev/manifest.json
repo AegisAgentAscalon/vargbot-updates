@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev14",
+          "publishedAt": "2026-07-01T18:46:02Z",
+          "releaseNotesSummary": "Agent Network join recovery and workflow UI cleanup",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev14-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "8f830ec4aedbf3da27e17fce57f705cc273c1bf098a82a5047320a2a9d58e7c4",
+            "sizeBytes": 39077768
+          }
+        },
+        {
           "version": "0.1.3-Dev13",
           "publishedAt": "2026-07-01T18:18:24Z",
           "releaseNotesSummary": "Agent Network reciprocal peer connect repair",
