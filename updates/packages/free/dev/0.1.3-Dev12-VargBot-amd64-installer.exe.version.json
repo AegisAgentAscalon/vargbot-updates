@@ -1,8 +1,8 @@
 {
-  "version": "0.1.3-Dev9a",
-  "artifact": "0.1.3-Dev9a-VargBot-amd64-installer.exe",
+  "version": "0.1.3-Dev12",
+  "artifact": "0.1.3-Dev12-VargBot-amd64-installer.exe",
   "sha256": "ff2ce4891a5ad97b178bc40d05599bf0d8615e5f75b137efbc9fe56cb7ee6a97",
   "sizeBytes": 39053403,
-  "packagedAt": "2026-07-01T17:36:48Z",
+  "packagedAt": "2026-07-01T17:36:47Z",
   "buildSource": "VargBot-amd64-installer.exe"
 }
