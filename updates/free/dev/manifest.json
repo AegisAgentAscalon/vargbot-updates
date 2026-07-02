@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev21",
+          "publishedAt": "2026-07-02T19:41:45Z",
+          "releaseNotesSummary": "Updates cleanup, sticky Agent Network lists, and automatic update checks",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev21-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "664ea9663313cf3c5faa95ab4aafce7c35dd78b8a241032808d5bb288f44c7a7",
+            "sizeBytes": 39083909
+          }
+        },
+        {
           "version": "0.1.3-Dev20",
           "publishedAt": "2026-07-02T19:21:25Z",
           "releaseNotesSummary": "Compact App Network dropdown lists and stale proof UI",
