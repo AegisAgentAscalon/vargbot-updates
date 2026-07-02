@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev20",
+          "publishedAt": "2026-07-02T19:21:25Z",
+          "releaseNotesSummary": "Compact App Network dropdown lists and stale proof UI",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev20-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "f1089009b955440d9c311b2bb503406cd6892b28a18ff3ee246cee365211b710",
+            "sizeBytes": 39082192
+          }
+        },
+        {
           "version": "0.1.3-Dev19",
           "publishedAt": "2026-07-02T19:04:58Z",
           "releaseNotesSummary": "Hide join action for already joined Agent Networks",
