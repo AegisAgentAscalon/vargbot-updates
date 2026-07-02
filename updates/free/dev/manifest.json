@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev24",
+          "publishedAt": "2026-07-02T20:48:49Z",
+          "releaseNotesSummary": "Smaller rail icons and startup update prompt",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev24-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "bc01a8930a6197318c74ab30a98cb244207ef0930dfe74667147f1b7c1962f89",
+            "sizeBytes": 39087705
+          }
+        },
+        {
           "version": "0.1.3-Dev23",
           "publishedAt": "2026-07-02T20:30:53Z",
           "releaseNotesSummary": "Mockup rail dock and collapsible rail",
