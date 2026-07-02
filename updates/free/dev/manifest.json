@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.3-Dev19",
+          "publishedAt": "2026-07-02T19:04:58Z",
+          "releaseNotesSummary": "Hide join action for already joined Agent Networks",
+          "compatibilityNotes": "",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.3-Dev19-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "4ed51a5c6215b24bd4f35a5b861b96f737eff0a1346b40c6bdd7335e80408d17",
+            "sizeBytes": 39081697
+          }
+        },
+        {
           "version": "0.1.3-Dev18",
           "publishedAt": "2026-07-02T16:38:21Z",
           "releaseNotesSummary": "Remove App Network advanced details drawer",
