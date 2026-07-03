@@ -4,6 +4,19 @@
     "dev": {
       "releases": [
         {
+          "version": "0.1.4-Dev01",
+          "publishedAt": "2026-07-03T01:16:23Z",
+          "releaseNotesSummary": "Agents Models runtime adapter readiness; metadata-only bindings; runtime execution remains disabled.",
+          "compatibilityNotes": "Free dev channel; Windows Wails desktop installer.",
+          "package": {
+            "sourceKind": "file",
+            "source": "../../packages/free/dev/0.1.4-Dev01-VargBot-amd64-installer.exe",
+            "fileName": "VargBot-amd64-installer.exe",
+            "sha256": "762258ffd0f1eba04f91f634d4de502712bb90471c30c666ca4f25833ba742b9",
+            "sizeBytes": 39285700
+          }
+        },
+        {
           "version": "0.1.3-Dev29",
           "publishedAt": "2026-07-02T22:43:06Z",
           "releaseNotesSummary": "Compact command icons and one-click download install",
